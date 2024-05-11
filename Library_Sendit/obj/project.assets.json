@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\MARJAUZA\\.nuget\\packages\\": {}
+    "C:\\Users\\Os 10\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MARJAUZA\\Documents\\KULIAH\\TUGAS\\Semester 4\\Konstruksi Perangkat Lunak\\Sendit\\Tubes_KPL_Gaskan_Sendit\\Library_Sendit\\Library_Sendit.csproj",
+      "projectUniqueName": "D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\Library_Sendit\\Library_Sendit.csproj",
       "projectName": "Library_Sendit",
-      "projectPath": "C:\\Users\\MARJAUZA\\Documents\\KULIAH\\TUGAS\\Semester 4\\Konstruksi Perangkat Lunak\\Sendit\\Tubes_KPL_Gaskan_Sendit\\Library_Sendit\\Library_Sendit.csproj",
-      "packagesPath": "C:\\Users\\MARJAUZA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MARJAUZA\\Documents\\KULIAH\\TUGAS\\Semester 4\\Konstruksi Perangkat Lunak\\Sendit\\Tubes_KPL_Gaskan_Sendit\\Library_Sendit\\obj\\",
+      "projectPath": "D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\Library_Sendit\\Library_Sendit.csproj",
+      "packagesPath": "C:\\Users\\Os 10\\.nuget\\packages\\",
+      "outputPath": "D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\Library_Sendit\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MARJAUZA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Os 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -66,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

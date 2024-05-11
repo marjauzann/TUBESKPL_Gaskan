@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Main_Sendit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe9a1c57c1ba7158f4aa08a89c23ef81aea18dfb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c76f11f371f8b36a09ee36b8cc600701dc9eb05")]
 [assembly: System.Reflection.AssemblyProductAttribute("Main_Sendit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Main_Sendit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

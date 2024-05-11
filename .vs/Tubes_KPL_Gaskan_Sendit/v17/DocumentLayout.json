@@ -1,13 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MARJAUZA\\Documents\\KULIAH\\TUGAS\\Semester 4\\Konstruksi Perangkat Lunak\\Sendit\\Tubes_KPL_Gaskan_Sendit\\",
+  "WorkspaceRootPath": "D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CBC417E2-5033-47E9-BD1B-B0CAAD1A9534}|Main_Sendit\\Main_Sendit.csproj|c:\\users\\marjauza\\documents\\kuliah\\tugas\\semester 4\\konstruksi perangkat lunak\\sendit\\tubes_kpl_gaskan_sendit\\main_sendit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23E23306-EA7D-4A50-B833-FCCA15ADFEC3}|API\\API.csproj|d:\\kpl c#\\tubes\\tubeskpl_gaskan\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E23306-EA7D-4A50-B833-FCCA15ADFEC3}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E23306-EA7D-4A50-B833-FCCA15ADFEC3}|API\\API.csproj|d:\\kpl c#\\tubes\\tubeskpl_gaskan\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E23306-EA7D-4A50-B833-FCCA15ADFEC3}|API\\API.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E23306-EA7D-4A50-B833-FCCA15ADFEC3}|API\\API.csproj|d:\\kpl c#\\tubes\\tubeskpl_gaskan\\api\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E23306-EA7D-4A50-B833-FCCA15ADFEC3}|API\\API.csproj|solutionrelative:api\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E23306-EA7D-4A50-B833-FCCA15ADFEC3}|API\\API.csproj|d:\\kpl c#\\tubes\\tubeskpl_gaskan\\api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E23306-EA7D-4A50-B833-FCCA15ADFEC3}|API\\API.csproj|solutionrelative:api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E23306-EA7D-4A50-B833-FCCA15ADFEC3}|API\\API.csproj|d:\\kpl c#\\tubes\\tubeskpl_gaskan\\api\\api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{23E23306-EA7D-4A50-B833-FCCA15ADFEC3}|API\\API.csproj|solutionrelative:api\\api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E23306-EA7D-4A50-B833-FCCA15ADFEC3}|API\\API.csproj|d:\\kpl c#\\tubes\\tubeskpl_gaskan\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{23E23306-EA7D-4A50-B833-FCCA15ADFEC3}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E23306-EA7D-4A50-B833-FCCA15ADFEC3}|API\\API.csproj|d:\\kpl c#\\tubes\\tubeskpl_gaskan\\api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E23306-EA7D-4A50-B833-FCCA15ADFEC3}|API\\API.csproj|solutionrelative:api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC417E2-5033-47E9-BD1B-B0CAAD1A9534}|Main_Sendit\\Main_Sendit.csproj|d:\\kpl c#\\tubes\\tubeskpl_gaskan\\main_sendit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBC417E2-5033-47E9-BD1B-B0CAAD1A9534}|Main_Sendit\\Main_Sendit.csproj|solutionrelative:main_sendit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02114668-CDBB-49D6-8F4A-D2F793560EC1}|Library_Sendit\\Library_Sendit.csproj|c:\\users\\marjauza\\documents\\kuliah\\tugas\\semester 4\\konstruksi perangkat lunak\\sendit\\tubes_kpl_gaskan_sendit\\library_sendit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{02114668-CDBB-49D6-8F4A-D2F793560EC1}|Library_Sendit\\Library_Sendit.csproj|D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\library_sendit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02114668-CDBB-49D6-8F4A-D2F793560EC1}|Library_Sendit\\Library_Sendit.csproj|solutionrelative:library_sendit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,15 +46,105 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "API\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T12:46:25.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T12:45:52.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "API",
+              "DocumentMoniker": "D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\API\\API.csproj",
+              "RelativeDocumentMoniker": "API\\API.csproj",
+              "ToolTip": "D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\API\\API.csproj",
+              "RelativeToolTip": "API\\API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-11T12:45:48.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-11T12:45:37.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\API\\User.cs",
+              "RelativeDocumentMoniker": "API\\User.cs",
+              "ToolTip": "D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\API\\User.cs",
+              "RelativeToolTip": "API\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T12:44:11.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "API\\WeatherForecast.cs",
+              "ToolTip": "D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\API\\WeatherForecast.cs",
+              "RelativeToolTip": "API\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T12:38:18.46Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MARJAUZA\\Documents\\KULIAH\\TUGAS\\Semester 4\\Konstruksi Perangkat Lunak\\Sendit\\Tubes_KPL_Gaskan_Sendit\\Main_Sendit\\Program.cs",
+              "DocumentMoniker": "D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T12:38:16.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\Main_Sendit\\Program.cs",
               "RelativeDocumentMoniker": "Main_Sendit\\Program.cs",
-              "ToolTip": "C:\\Users\\MARJAUZA\\Documents\\KULIAH\\TUGAS\\Semester 4\\Konstruksi Perangkat Lunak\\Sendit\\Tubes_KPL_Gaskan_Sendit\\Main_Sendit\\Program.cs",
+              "ToolTip": "D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\Main_Sendit\\Program.cs",
               "RelativeToolTip": "Main_Sendit\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -35,16 +153,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MARJAUZA\\Documents\\KULIAH\\TUGAS\\Semester 4\\Konstruksi Perangkat Lunak\\Sendit\\Tubes_KPL_Gaskan_Sendit\\Library_Sendit\\Program.cs",
+              "DocumentMoniker": "D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\Library_Sendit\\Program.cs",
               "RelativeDocumentMoniker": "Library_Sendit\\Program.cs",
-              "ToolTip": "C:\\Users\\MARJAUZA\\Documents\\KULIAH\\TUGAS\\Semester 4\\Konstruksi Perangkat Lunak\\Sendit\\Tubes_KPL_Gaskan_Sendit\\Library_Sendit\\Program.cs",
+              "ToolTip": "D:\\KPL C#\\Tubes\\TUBESKPL_Gaskan\\Library_Sendit\\Program.cs",
               "RelativeToolTip": "Library_Sendit\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T10:48:24.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T10:48:24.712Z"
             }
           ]
         }
