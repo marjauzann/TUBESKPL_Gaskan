@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MARJAUZA\\Documents\\KULIAH\\TUGAS\\Semester 4\\Konstruksi Perangkat Lunak\\Sendit\\Tubes_KPL_Gaskan_Sendit\\Library_Sendit\\Library_Sendit.csproj",
+      "projectUniqueName": "C:\\Users\\MARJAUZA\\Documents\\KULIAH\\TUGAS\\Semester 4\\Konstruksi Perangkat Lunak\\Tubes_KPL_Gaskan_Sendit\\Library_Sendit\\Library_Sendit.csproj",
       "projectName": "Library_Sendit",
-      "projectPath": "C:\\Users\\MARJAUZA\\Documents\\KULIAH\\TUGAS\\Semester 4\\Konstruksi Perangkat Lunak\\Sendit\\Tubes_KPL_Gaskan_Sendit\\Library_Sendit\\Library_Sendit.csproj",
+      "projectPath": "C:\\Users\\MARJAUZA\\Documents\\KULIAH\\TUGAS\\Semester 4\\Konstruksi Perangkat Lunak\\Tubes_KPL_Gaskan_Sendit\\Library_Sendit\\Library_Sendit.csproj",
       "packagesPath": "C:\\Users\\MARJAUZA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MARJAUZA\\Documents\\KULIAH\\TUGAS\\Semester 4\\Konstruksi Perangkat Lunak\\Sendit\\Tubes_KPL_Gaskan_Sendit\\Library_Sendit\\obj\\",
+      "outputPath": "C:\\Users\\MARJAUZA\\Documents\\KULIAH\\TUGAS\\Semester 4\\Konstruksi Perangkat Lunak\\Tubes_KPL_Gaskan_Sendit\\Library_Sendit\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MARJAUZA\\AppData\\Roaming\\NuGet\\NuGet.Config",

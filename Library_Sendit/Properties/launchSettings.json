@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Library_Sendit": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}
