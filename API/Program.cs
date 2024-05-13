@@ -14,7 +14,7 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 // Route untuk menampilkan pesan sapaan
-app.MapGet("/", () => "GGASKAN");
+app.MapGet("/", () => "GASKAN");
     
 
 
