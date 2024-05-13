@@ -30,17 +30,24 @@
         }
         public void menuKurir()
         {
-            Console.WriteLine("1. My orders");
-            Console.WriteLine("2. Logout");
-            Console.Write("Choose option: ");
+            Console.WriteLine(",------------------------------------------------,");
+            Console.WriteLine("|                   MENU KURIR                   |");
+            Console.WriteLine("|                   1. Pesanan                   |");
+            Console.WriteLine("|                   2. LogOut                    |");
+            Console.WriteLine("|                                                |");
+            Console.WriteLine("|            Pilih Opsi yang Tersedia            |");
+            Console.WriteLine("'------------------------------------------------'");
         }
 
         public void menuPengirim()
         {
-            Console.WriteLine("1. Send package");
-            Console.WriteLine("2. View orders");
-            Console.WriteLine("3. Logout");
-            Console.Write("Choose option: ");
+            Console.WriteLine(",------------------------------------------------,");
+            Console.WriteLine("|                  MENU PENGIRIM                 |");
+            Console.WriteLine("|                 1. Kirim Paket                 |");
+            Console.WriteLine("|                   2. LogOut                    |");
+            Console.WriteLine("|                                                |");
+            Console.WriteLine("|            Pilih Opsi yang Tersedia            |");
+            Console.WriteLine("'------------------------------------------------'");
         }
 
         public void exit()
