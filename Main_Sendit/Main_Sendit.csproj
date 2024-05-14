@@ -11,4 +11,7 @@
     <Folder Include="State\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Library_Sendit\Library_Sendit.csproj" />
+  </ItemGroup>
 </Project>
