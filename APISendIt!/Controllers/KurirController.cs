@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-
+using APISendIt_.Model;
 
 namespace APISendIt.Controllers
 {
@@ -11,10 +11,18 @@ namespace APISendIt.Controllers
     {
         public static List<Kurir> KurirData = new List<Kurir>
         {
-            new Kurir("Hasan Pane", "NPane", "password123", "19"),
-            new Kurir("Marjauza Naswansyah", "MNaswan", "password456", "20"),
-            new Kurir("Nizar Rasyiid", "NRasyiid", "password789", "21")
+            new Kurir(1, "Hasan Pane", "NPane", "password123", "19"),
+            new Kurir(2, "Marjauza Naswansyah", "MNaswan", "password456", "20"),
+            new Kurir(3, "Nizar Rasyiid", "NRasyiid", "password789", "21")
         };
+
+        [HttpGet]
+        public IEnumerable<Kurir> Get()
+        {
+            Debug.Assert(KurirData != null, "Data Kurir tidak boleh kosong");
+            return KurirData;
+        }
+
         [HttpGet("{id}")]
         public Kurir? Get(int id)
         {

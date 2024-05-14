@@ -6,7 +6,7 @@ namespace APISendIt_.Model;
     Kurir,
     Pengguna
 }
-{
+
     public class User
     {
         public int Id { get; set; }
@@ -36,4 +36,4 @@ namespace APISendIt_.Model;
             this.password = password;
         }
     }
-}
+

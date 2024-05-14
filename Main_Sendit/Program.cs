@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Main_Sendit.View.Pengguna;
+using System;
 using System.Collections.Generic;
 
 class Program
@@ -21,6 +22,9 @@ class Program
             {
                 case 1:
                     Register();
+                    BookingPage bok
+                        = new BookingPage();
+                    
                     break;
                 case 2:
                     Login();

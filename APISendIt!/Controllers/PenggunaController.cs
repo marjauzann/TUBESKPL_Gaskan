@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics.Metrics;
 using System.Diagnostics;
-using 
+using APISendIt_.Model;
 
 namespace APISendIt_.Controllers
 {
@@ -11,17 +11,17 @@ namespace APISendIt_.Controllers
     {
         public static List<Pengguna> PenggunaData = new List<Pengguna>
         {
-            new Pengguna("Budi Yanto", "budiyanto", "password123", "27"),
-            new Pengguna("Bob Sadino", "bobsadino", "password456", "55"),
-            new Pengguna("Jonny Cage", "jonnycage", "password789", "39")
+            new Pengguna(2, "Budi Yanto", "budiyanto", "password123", "27"),
+            new Pengguna(4, "Bob Sadino", "bobsadino", "password456", "55"),
+            new Pengguna(3, "Jonny Cage", "jonnycage", "password789", "39")
         };
 
         [HttpGet]
         public IEnumerable<Pengguna> Get()
-        {
-            Debug.Assert(PenggunaData != null, "Data Pengguna tidak boleh kosong");
-            return PenggunaData;
-        }
+            {
+                Debug.Assert(PenggunaData != null, "Data Pengguna tidak boleh kosong");
+                return PenggunaData;
+            }
 
         [HttpGet("{id}")]
         public Pengguna? Get(int id)
