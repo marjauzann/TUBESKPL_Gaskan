@@ -1,14 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MARJAUZA\\Documents\\KULIAH\\TUGAS\\Semester 4\\Konstruksi Perangkat Lunak\\Tubes_KPL_Gaskan_Sendit\\",
+  "WorkspaceRootPath": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CBC417E2-5033-47E9-BD1B-B0CAAD1A9534}|Main_Sendit\\Main_Sendit.csproj|c:\\users\\marjauza\\documents\\kuliah\\tugas\\semester 4\\konstruksi perangkat lunak\\tubes_kpl_gaskan_sendit\\main_sendit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{613F2BD0-A170-4A64-BC03-860348227679}|SendItTesting\\SendItTesting.csproj|d:\\1. university\\ngampus\\tugas\\semester 4\\kpl\\tubes\\sendittesting\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{613F2BD0-A170-4A64-BC03-860348227679}|SendItTesting\\SendItTesting.csproj|solutionrelative:sendittesting\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{613F2BD0-A170-4A64-BC03-860348227679}|SendItTesting\\SendItTesting.csproj|d:\\1. university\\ngampus\\tugas\\semester 4\\kpl\\tubes\\sendittesting\\sendittesting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{613F2BD0-A170-4A64-BC03-860348227679}|SendItTesting\\SendItTesting.csproj|solutionrelative:sendittesting\\sendittesting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC417E2-5033-47E9-BD1B-B0CAAD1A9534}|Main_Sendit\\Main_Sendit.csproj|d:\\1. university\\ngampus\\tugas\\semester 4\\kpl\\tubes\\main_sendit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBC417E2-5033-47E9-BD1B-B0CAAD1A9534}|Main_Sendit\\Main_Sendit.csproj|solutionrelative:main_sendit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02114668-CDBB-49D6-8F4A-D2F793560EC1}|Library_Sendit\\Library_Sendit.csproj|c:\\users\\marjauza\\documents\\kuliah\\tugas\\semester 4\\konstruksi perangkat lunak\\tubes_kpl_gaskan_sendit\\library_sendit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02114668-CDBB-49D6-8F4A-D2F793560EC1}|Library_Sendit\\Library_Sendit.csproj|solutionrelative:library_sendit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBC417E2-5033-47E9-BD1B-B0CAAD1A9534}|Main_Sendit\\Main_Sendit.csproj|D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\main_sendit\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC417E2-5033-47E9-BD1B-B0CAAD1A9534}|Main_Sendit\\Main_Sendit.csproj|solutionrelative:main_sendit\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC417E2-5033-47E9-BD1B-B0CAAD1A9534}|Main_Sendit\\Main_Sendit.csproj|D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\main_sendit\\view\\pengguna\\bookingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC417E2-5033-47E9-BD1B-B0CAAD1A9534}|Main_Sendit\\Main_Sendit.csproj|solutionrelative:main_sendit\\view\\pengguna\\bookingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A2057F2-7DDB-45C6-B938-A8DAD295CBFC}|APISendIt!\\APISendIt.csproj|D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\apisendit!\\controllers\\penggunacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A2057F2-7DDB-45C6-B938-A8DAD295CBFC}|APISendIt!\\APISendIt.csproj|solutionrelative:apisendit!\\controllers\\penggunacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A2057F2-7DDB-45C6-B938-A8DAD295CBFC}|APISendIt!\\APISendIt.csproj|D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\apisendit!\\model\\genericssendit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A2057F2-7DDB-45C6-B938-A8DAD295CBFC}|APISendIt!\\APISendIt.csproj|solutionrelative:apisendit!\\model\\genericssendit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC417E2-5033-47E9-BD1B-B0CAAD1A9534}|Main_Sendit\\Main_Sendit.csproj|D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\main_sendit\\model\\kurir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC417E2-5033-47E9-BD1B-B0CAAD1A9534}|Main_Sendit\\Main_Sendit.csproj|solutionrelative:main_sendit\\model\\kurir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC417E2-5033-47E9-BD1B-B0CAAD1A9534}|Main_Sendit\\Main_Sendit.csproj|D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\main_sendit\\model\\pengguna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC417E2-5033-47E9-BD1B-B0CAAD1A9534}|Main_Sendit\\Main_Sendit.csproj|solutionrelative:main_sendit\\model\\pengguna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A2057F2-7DDB-45C6-B938-A8DAD295CBFC}|APISendIt!\\APISendIt.csproj|D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\apisendit!\\model\\pengguna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A2057F2-7DDB-45C6-B938-A8DAD295CBFC}|APISendIt!\\APISendIt.csproj|solutionrelative:apisendit!\\model\\pengguna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC417E2-5033-47E9-BD1B-B0CAAD1A9534}|Main_Sendit\\Main_Sendit.csproj|D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\main_sendit\\implementation\\profileset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC417E2-5033-47E9-BD1B-B0CAAD1A9534}|Main_Sendit\\Main_Sendit.csproj|solutionrelative:main_sendit\\implementation\\profileset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A2057F2-7DDB-45C6-B938-A8DAD295CBFC}|APISendIt!\\APISendIt.csproj|D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\apisendit!\\controllers\\kurircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A2057F2-7DDB-45C6-B938-A8DAD295CBFC}|APISendIt!\\APISendIt.csproj|solutionrelative:apisendit!\\controllers\\kurircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A2057F2-7DDB-45C6-B938-A8DAD295CBFC}|APISendIt!\\APISendIt.csproj|D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\apisendit!\\model\\kurir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A2057F2-7DDB-45C6-B938-A8DAD295CBFC}|APISendIt!\\APISendIt.csproj|solutionrelative:apisendit!\\model\\kurir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A2057F2-7DDB-45C6-B938-A8DAD295CBFC}|APISendIt!\\APISendIt.csproj|D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\apisendit!\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A2057F2-7DDB-45C6-B938-A8DAD295CBFC}|APISendIt!\\APISendIt.csproj|solutionrelative:apisendit!\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +66,180 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MARJAUZA\\Documents\\KULIAH\\TUGAS\\Semester 4\\Konstruksi Perangkat Lunak\\Tubes_KPL_Gaskan_Sendit\\Main_Sendit\\Program.cs",
+              "DocumentMoniker": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\Main_Sendit\\Program.cs",
               "RelativeDocumentMoniker": "Main_Sendit\\Program.cs",
-              "ToolTip": "C:\\Users\\MARJAUZA\\Documents\\KULIAH\\TUGAS\\Semester 4\\Konstruksi Perangkat Lunak\\Tubes_KPL_Gaskan_Sendit\\Main_Sendit\\Program.cs",
+              "ToolTip": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\Main_Sendit\\Program.cs",
               "RelativeToolTip": "Main_Sendit\\Program.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAmwDQAAAARAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAewDsAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T10:48:43.854Z",
+              "WhenOpened": "2024-05-14T01:05:09.235Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MARJAUZA\\Documents\\KULIAH\\TUGAS\\Semester 4\\Konstruksi Perangkat Lunak\\Tubes_KPL_Gaskan_Sendit\\Library_Sendit\\Program.cs",
-              "RelativeDocumentMoniker": "Library_Sendit\\Program.cs",
-              "ToolTip": "C:\\Users\\MARJAUZA\\Documents\\KULIAH\\TUGAS\\Semester 4\\Konstruksi Perangkat Lunak\\Tubes_KPL_Gaskan_Sendit\\Library_Sendit\\Program.cs",
-              "RelativeToolTip": "Library_Sendit\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T10:48:24.712Z",
+              "Title": "SendItTesting",
+              "DocumentMoniker": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\SendItTesting\\SendItTesting.csproj",
+              "RelativeDocumentMoniker": "SendItTesting\\SendItTesting.csproj",
+              "ToolTip": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\SendItTesting\\SendItTesting.csproj",
+              "RelativeToolTip": "SendItTesting\\SendItTesting.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-16T04:37:06.768Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\SendItTesting\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "SendItTesting\\UnitTest1.cs",
+              "ToolTip": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\SendItTesting\\UnitTest1.cs",
+              "RelativeToolTip": "SendItTesting\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T04:37:04.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\Main_Sendit\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Main_Sendit\\Model\\User.cs",
+              "ToolTip": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\Main_Sendit\\Model\\User.cs",
+              "RelativeToolTip": "Main_Sendit\\Model\\User.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA+wCIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T01:15:28.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Kurir.cs",
+              "DocumentMoniker": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\Main_Sendit\\Model\\Kurir.cs",
+              "RelativeDocumentMoniker": "Main_Sendit\\Model\\Kurir.cs",
+              "ToolTip": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\Main_Sendit\\Model\\Kurir.cs",
+              "RelativeToolTip": "Main_Sendit\\Model\\Kurir.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T01:15:00.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookingPage.cs",
+              "DocumentMoniker": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\Main_Sendit\\View\\Pengguna\\BookingPage.cs",
+              "RelativeDocumentMoniker": "Main_Sendit\\View\\Pengguna\\BookingPage.cs",
+              "ToolTip": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\Main_Sendit\\View\\Pengguna\\BookingPage.cs",
+              "RelativeToolTip": "Main_Sendit\\View\\Pengguna\\BookingPage.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T01:12:21.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\APISendIt!\\Model\\User.cs",
+              "RelativeDocumentMoniker": "APISendIt!\\Model\\User.cs",
+              "ToolTip": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\APISendIt!\\Model\\User.cs",
+              "RelativeToolTip": "APISendIt!\\Model\\User.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAA+wAYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T00:48:36.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PenggunaController.cs",
+              "DocumentMoniker": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\APISendIt!\\Controllers\\PenggunaController.cs",
+              "RelativeDocumentMoniker": "APISendIt!\\Controllers\\PenggunaController.cs",
+              "ToolTip": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\APISendIt!\\Controllers\\PenggunaController.cs",
+              "RelativeToolTip": "APISendIt!\\Controllers\\PenggunaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T00:48:24.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GenericsSendIt.cs",
+              "DocumentMoniker": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\APISendIt!\\Model\\GenericsSendIt.cs",
+              "RelativeDocumentMoniker": "APISendIt!\\Model\\GenericsSendIt.cs",
+              "ToolTip": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\APISendIt!\\Model\\GenericsSendIt.cs",
+              "RelativeToolTip": "APISendIt!\\Model\\GenericsSendIt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T00:48:16.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Kurir.cs",
+              "DocumentMoniker": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\APISendIt!\\Model\\Kurir.cs",
+              "RelativeDocumentMoniker": "APISendIt!\\Model\\Kurir.cs",
+              "ToolTip": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\APISendIt!\\Model\\Kurir.cs",
+              "RelativeToolTip": "APISendIt!\\Model\\Kurir.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T00:46:26.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "KurirController.cs",
+              "DocumentMoniker": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\APISendIt!\\Controllers\\KurirController.cs",
+              "RelativeDocumentMoniker": "APISendIt!\\Controllers\\KurirController.cs",
+              "ToolTip": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\APISendIt!\\Controllers\\KurirController.cs",
+              "RelativeToolTip": "APISendIt!\\Controllers\\KurirController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAiwA8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T00:45:28.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProfileSet.cs",
+              "DocumentMoniker": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\Main_Sendit\\Implementation\\ProfileSet.cs",
+              "RelativeDocumentMoniker": "Main_Sendit\\Implementation\\ProfileSet.cs",
+              "ToolTip": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\Main_Sendit\\Implementation\\ProfileSet.cs",
+              "RelativeToolTip": "Main_Sendit\\Implementation\\ProfileSet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:31:29.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Pengguna.cs",
+              "DocumentMoniker": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\APISendIt!\\Model\\Pengguna.cs",
+              "RelativeDocumentMoniker": "APISendIt!\\Model\\Pengguna.cs",
+              "ToolTip": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\APISendIt!\\Model\\Pengguna.cs",
+              "RelativeToolTip": "APISendIt!\\Model\\Pengguna.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:30:10.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Pengguna.cs",
+              "DocumentMoniker": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\Main_Sendit\\Model\\Pengguna.cs",
+              "RelativeDocumentMoniker": "Main_Sendit\\Model\\Pengguna.cs",
+              "ToolTip": "D:\\1. University\\Ngampus\\Tugas\\Semester 4\\KPL\\Tubes\\Main_Sendit\\Model\\Pengguna.cs",
+              "RelativeToolTip": "Main_Sendit\\Model\\Pengguna.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T14:31:51.402Z"
             }
           ]
         }

@@ -11,9 +11,9 @@ namespace APISendIt_.Controllers
     {
         public static List<Pengguna> PenggunaData = new List<Pengguna>
         {
-            new Pengguna(2, "Budi Yanto", "budiyanto", "password123", "27"),
-            new Pengguna(4, "Bob Sadino", "bobsadino", "password456", "55"),
-            new Pengguna(3, "Jonny Cage", "jonnycage", "password789", "39")
+            new Pengguna("Budi Yanto", "budiyanto", "password123", "27"),
+            new Pengguna("Bob Sadino", "bobsadino", "password456", "55"),
+            new Pengguna("Jonny Cage", "jonnycage", "password789", "39")
         };
 
         [HttpGet]

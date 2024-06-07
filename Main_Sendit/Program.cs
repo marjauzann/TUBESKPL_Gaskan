@@ -53,11 +53,11 @@ class Program
             {
                 currentUser = user;
                 Console.WriteLine("Login successful!");
-                if (currentUser.Role == Role.Sender)
+                if (currentUser.Role == Role.Pengirim)
                 {
                     SenderMenu();
                 }
-                else if (currentUser.Role == Role.Courier)
+                else if (currentUser.Role == Role.Kurir)
                 {
                     CourierMenu();
                 }
@@ -235,8 +235,8 @@ class Program
 
 enum Role
 {
-    Sender,
-    Courier
+    Pengirim,
+    Kurir
 }
 
 class User
