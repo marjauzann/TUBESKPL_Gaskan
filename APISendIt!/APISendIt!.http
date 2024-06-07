@@ -1,0 +1,6 @@
+@APISendIt__HostAddress = http://localhost:5247
+
+GET {{APISendIt__HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

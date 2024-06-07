@@ -13,3 +13,18 @@ C:\Users\MARJAUZA\Documents\KULIAH\TUGAS\Semester 4\Konstruksi Perangkat Lunak\T
 C:\Users\MARJAUZA\Documents\KULIAH\TUGAS\Semester 4\Konstruksi Perangkat Lunak\Tubes_KPL_Gaskan_Sendit\Library_Sendit\obj\Debug\net8.0\Library_Sendit.pdb
 C:\Users\MARJAUZA\Documents\KULIAH\TUGAS\Semester 4\Konstruksi Perangkat Lunak\Tubes_KPL_Gaskan_Sendit\Library_Sendit\obj\Debug\net8.0\Library_Sendit.genruntimeconfig.cache
 C:\Users\MARJAUZA\Documents\KULIAH\TUGAS\Semester 4\Konstruksi Perangkat Lunak\Tubes_KPL_Gaskan_Sendit\Library_Sendit\obj\Debug\net8.0\ref\Library_Sendit.dll
+D:\1. University\Ngampus\Tugas\Semester 4\KPL\Tubes\Library_Sendit\bin\Debug\net8.0\Library_Sendit.exe
+D:\1. University\Ngampus\Tugas\Semester 4\KPL\Tubes\Library_Sendit\bin\Debug\net8.0\Library_Sendit.deps.json
+D:\1. University\Ngampus\Tugas\Semester 4\KPL\Tubes\Library_Sendit\bin\Debug\net8.0\Library_Sendit.runtimeconfig.json
+D:\1. University\Ngampus\Tugas\Semester 4\KPL\Tubes\Library_Sendit\bin\Debug\net8.0\Library_Sendit.dll
+D:\1. University\Ngampus\Tugas\Semester 4\KPL\Tubes\Library_Sendit\bin\Debug\net8.0\Library_Sendit.pdb
+D:\1. University\Ngampus\Tugas\Semester 4\KPL\Tubes\Library_Sendit\obj\Debug\net8.0\Library_Sendit.GeneratedMSBuildEditorConfig.editorconfig
+D:\1. University\Ngampus\Tugas\Semester 4\KPL\Tubes\Library_Sendit\obj\Debug\net8.0\Library_Sendit.AssemblyInfoInputs.cache
+D:\1. University\Ngampus\Tugas\Semester 4\KPL\Tubes\Library_Sendit\obj\Debug\net8.0\Library_Sendit.AssemblyInfo.cs
+D:\1. University\Ngampus\Tugas\Semester 4\KPL\Tubes\Library_Sendit\obj\Debug\net8.0\Library_Sendit.csproj.CoreCompileInputs.cache
+D:\1. University\Ngampus\Tugas\Semester 4\KPL\Tubes\Library_Sendit\obj\Debug\net8.0\Library_Sendit.sourcelink.json
+D:\1. University\Ngampus\Tugas\Semester 4\KPL\Tubes\Library_Sendit\obj\Debug\net8.0\Library_Sendit.dll
+D:\1. University\Ngampus\Tugas\Semester 4\KPL\Tubes\Library_Sendit\obj\Debug\net8.0\refint\Library_Sendit.dll
+D:\1. University\Ngampus\Tugas\Semester 4\KPL\Tubes\Library_Sendit\obj\Debug\net8.0\Library_Sendit.pdb
+D:\1. University\Ngampus\Tugas\Semester 4\KPL\Tubes\Library_Sendit\obj\Debug\net8.0\Library_Sendit.genruntimeconfig.cache
+D:\1. University\Ngampus\Tugas\Semester 4\KPL\Tubes\Library_Sendit\obj\Debug\net8.0\ref\Library_Sendit.dll
