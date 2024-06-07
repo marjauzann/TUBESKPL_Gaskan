@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Folder Include="View\Kurir\" />
+    <Folder Include="State\" />
   </ItemGroup>
 
 </Project>

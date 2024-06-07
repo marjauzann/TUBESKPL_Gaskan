@@ -1,235 +1,258 @@
 ﻿using Main_Sendit.View.Pengguna;
 using System;
 using System.Collections.Generic;
+using Main_Sendit.Model;
 
 class Program
 {
-    static List<User> users = new List<User>();
-    static List<Order> orders = new List<Order>();
-    static User currentUser;
+    static List<User> pengguna = new List<User>();
+    static List<Order> pesanan = new List<Order>();
+    static User penggunaSaatIni;
 
     static void Main(string[] args)
     {
         while (true)
         {
-            Console.WriteLine("1. Register");
-            Console.WriteLine("2. Login");
-            Console.WriteLine("3. Exit");
-            Console.Write("Choose option: ");
-            int option = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(",________________________________________________,");
+            Console.WriteLine("|   __________      __________      __________   |");
+            Console.WriteLine("|  |   |  |   |    |   |  |   |    |   |  |   |  |");
+            Console.WriteLine("|  |   |__|   |    |   |__|   |    |   |__|   |  |");
+            Console.WriteLine("|  |          |    |          |    |          |  |");
+            Console.WriteLine("|  |          |    |          |    |          |  |");
+            Console.WriteLine("|  |__________|    |__________|    |__________|  |");
+            Console.WriteLine("|------------------------------------------------|");
+            Console.WriteLine("|           Aplikasi Pengiriman Barang           |");
+            Console.WriteLine("|                     SENDIT                     |");
+            Console.WriteLine("|           Created By Kelompok Gaskan           |");
+            Console.WriteLine("|          Naswan, Nizar, Theo, & Hasan          |");
+            Console.WriteLine("|     Tugas Besar Konstruksi Perangkat Lunak     |");
+            Console.WriteLine("|------------------------------------------------|");
+            Console.WriteLine("| +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  + |");
+            Console.WriteLine("|           Pilihlah Menu Dibawah Ini!           |");
+            Console.WriteLine("| +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  + |");
+            Console.WriteLine("|------------------------------------------------|");
+            Console.WriteLine("|                      MENU                      |");
+            Console.WriteLine("|                   1. Daftar                    |");
+            Console.WriteLine("|                   2. Masuk                     |");
+            Console.WriteLine("|                   3. Keluar                    |");
+            Console.WriteLine("'------------------------------------------------'");
+            Console.Write("Pilih opsi: ");
+            int opsi = Convert.ToInt32(Console.ReadLine());
 
-            switch (option)
+            switch (opsi)
             {
                 case 1:
-                    Register();
-                    BookingPage bok
-                        = new BookingPage();
-                    
+                    Daftar();
                     break;
                 case 2:
-                    Login();
+                    Masuk();
                     break;
                 case 3:
+                    Console.WriteLine(".------------------------------------------------.");
+                    Console.WriteLine("|         TERIMA KASIH TELAH MENGGUNAKAN         |");
+                    Console.WriteLine("|                Aplikasi SENDIT                 |");
+                    Console.WriteLine("|                  Sampai Jumpa                  |");
+                    Console.WriteLine("'------------------------------------------------'");
                     Environment.Exit(0);
                     break;
                 default:
-                    Console.WriteLine("Invalid option.");
+                    Console.WriteLine("Opsi tidak valid.");
                     break;
             }
         }
     }
 
-    static void Login()
+    static void Masuk()
     {
-        Console.Write("Enter username: ");
-        string username = Console.ReadLine();
-        Console.Write("Enter password: ");
-        string password = Console.ReadLine();
+        Console.Write("Masukkan nama pengguna: ");
+        string namaPengguna = Console.ReadLine();
+        Console.Write("Masukkan kata sandi: ");
+        string kataSandi = Console.ReadLine();
 
-        // Check user credentials
-        foreach (User user in users)
+        // Periksa kredensial pengguna
+        foreach (User pengguna in pengguna)
         {
-            if (user.Username == username && user.Password == password)
+            if (pengguna.Username == namaPengguna && pengguna.Password == kataSandi)
             {
-                currentUser = user;
-                Console.WriteLine("Login successful!");
-                if (currentUser.Role == Role.Pengirim)
+                penggunaSaatIni = pengguna;
+                Console.WriteLine("Masuk berhasil!");
+                if (penggunaSaatIni.Role == Role.Pengirim)
                 {
-                    SenderMenu();
+                    MenuPengirim();
                 }
-                else if (currentUser.Role == Role.Kurir)
+                else if (penggunaSaatIni.Role == Role.Kurir)
                 {
-                    CourierMenu();
+                    MenuKurir();
                 }
                 return;
             }
         }
-        Console.WriteLine("Invalid username or password.");
+        Console.WriteLine("Nama pengguna atau kata sandi salah.");
     }
 
-    static void Register()
+    static void Daftar()
     {
-        Console.Write("Enter username: ");
-        string username = Console.ReadLine();
-        Console.Write("Enter password: ");
-        string password = Console.ReadLine();
-        Console.Write("Enter role (Sender/Courier): ");
-        Role role = (Role)Enum.Parse(typeof(Role), Console.ReadLine());
+        Console.Write("Masukkan nama pengguna: ");
+        string namaPengguna = Console.ReadLine();
+        Console.Write("Masukkan kata sandi: ");
+        string kataSandi = Console.ReadLine();
+        Console.Write("Masukkan peran (Pengirim/Kurir): ");
+        Role peran = (Role)Enum.Parse(typeof(Role), Console.ReadLine());
 
-        users.Add(new User { Username = username, Password = password, Role = role });
-        Console.WriteLine("Registration successful!");
+        pengguna.Add(new User { Username = namaPengguna, Password = kataSandi, Role = peran });
+        Console.WriteLine("Pendaftaran berhasil!");
     }
 
-    static void SenderMenu()
+    static void MenuPengirim()
     {
         while (true)
         {
-            Console.WriteLine("1. Send package");
-            Console.WriteLine("2. View orders");
-            Console.WriteLine("3. Logout");
-            Console.Write("Choose option: ");
-            int option = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("1. Kirim paket");
+            Console.WriteLine("2. Lihat pesanan");
+            Console.WriteLine("3. Keluar");
+            Console.Write("Pilih opsi: ");
+            int opsi = Convert.ToInt32(Console.ReadLine());
 
-            switch (option)
+            switch (opsi)
             {
                 case 1:
-                    SendPackage();
+                    KirimPaket();
                     break;
                 case 2:
-                    ViewOrders();
+                    LihatPesanan();
                     break;
                 case 3:
-                    currentUser = null;
+                    penggunaSaatIni = null;
                     return;
                 default:
-                    Console.WriteLine("Invalid option.");
+                    Console.WriteLine("Opsi tidak valid.");
                     break;
             }
         }
     }
 
-    static void SendPackage()
+    static void KirimPaket()
     {
-        Console.WriteLine("Enter sender details:");
-        Console.Write("Name: ");
-        string senderName = Console.ReadLine();
-        Console.Write("Address: ");
-        string senderAddress = Console.ReadLine();
-        Console.Write("Phone number: ");
-        string senderPhone = Console.ReadLine();
+        Console.WriteLine("Masukkan detail pengirim:");
+        Console.Write("Nama: ");
+        string namaPengirim = Console.ReadLine();
+        Console.Write("Alamat: ");
+        string alamatPengirim = Console.ReadLine();
+        Console.Write("Nomor telepon: ");
+        string teleponPengirim = Console.ReadLine();
 
-        Console.WriteLine("Enter recipient details:");
-        Console.Write("Name: ");
-        string recipientName = Console.ReadLine();
-        Console.Write("Address: ");
-        string recipientAddress = Console.ReadLine();
-        Console.Write("Phone number: ");
-        string recipientPhone = Console.ReadLine();
+        Console.WriteLine("Masukkan detail penerima:");
+        Console.Write("Nama: ");
+        string namaPenerima = Console.ReadLine();
+        Console.Write("Alamat: ");
+        string alamatPenerima = Console.ReadLine();
+        Console.Write("Nomor telepon: ");
+        string teleponPenerima = Console.ReadLine();
 
-        Console.Write("Enter package details:");
-        Console.Write("Type: ");
-        string packageType = Console.ReadLine();
-        Console.Write("Weight (kg): ");
-        double packageWeight = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Masukkan detail paket:");
+        Console.Write("Tipe: ");
+        string tipePaket = Console.ReadLine();
+        Console.Write("Berat (kg): ");
+        double beratPaket = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("Enter distance (km): ");
-        double distance = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Masukkan jarak (km): ");
+        double jarak = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("Choose payment method:");
-        Console.WriteLine("1. Bank transfer");
+        Console.WriteLine("Pilih metode pembayaran:");
+        Console.WriteLine("1. Transfer bank");
         Console.WriteLine("2. QRIS");
-        int paymentOption = Convert.ToInt32(Console.ReadLine());
+        int opsiPembayaran = Convert.ToInt32(Console.ReadLine());
 
-        bool isPaid = false;
-        if (paymentOption == 1 || paymentOption == 2)
+        bool sudahDibayar = false;
+        if (opsiPembayaran == 1 || opsiPembayaran == 2)
         {
-            double price = distance * 5000;
+            double harga = jarak * 5000;
 
-            Console.WriteLine($"Price: {price}");
+            Console.WriteLine($"Harga: {harga}");
 
-            Console.WriteLine("1. Paid");
-            Console.WriteLine("2. Not Paid");
-            int paidOption = Convert.ToInt32(Console.ReadLine());
-            isPaid = paidOption == 1;
+            Console.WriteLine("1. Sudah dibayar");
+            Console.WriteLine("2. Belum dibayar");
+            int opsiDibayar = Convert.ToInt32(Console.ReadLine());
+            sudahDibayar = opsiDibayar == 1;
 
-            Order newOrder = new Order
+            Order pesananBaru = new Order
             {
-                Sender = currentUser,
-                SenderName = senderName,
-                SenderAddress = senderAddress,
-                SenderPhone = senderPhone,
-                RecipientName = recipientName,
-                RecipientAddress = recipientAddress,
-                RecipientPhone = recipientPhone,
-                PackageType = packageType,
-                PackageWeight = packageWeight,
-                Distance = distance,
-                Price = price,
-                IsPaid = isPaid,
+                Pengirim = penggunaSaatIni,
+                NamaPengirim = namaPengirim,
+                AlamatPengirim = alamatPengirim,
+                TeleponPengirim = teleponPengirim,
+                NamaPenerima = namaPenerima,
+                AlamatPenerima = alamatPenerima,
+                TeleponPenerima = teleponPenerima,
+                TipePaket = tipePaket,
+                BeratPaket = beratPaket,
+                Jarak = jarak,
+                Harga = harga,
+                SudahDibayar = sudahDibayar,
                 Status = "Pending"
             };
-            orders.Add(newOrder);
+            pesanan.Add(pesananBaru);
 
-            Console.WriteLine("Order placed successfully!");
+            Console.WriteLine("Pesanan berhasil ditambahkan!");
         }
         else
         {
-            Console.WriteLine("Invalid payment option.");
+            Console.WriteLine("Opsi pembayaran tidak valid.");
         }
     }
 
-    static void ViewOrders()
+    static void LihatPesanan()
     {
-        Console.WriteLine("Your orders:");
-        foreach (Order order in orders)
+        Console.WriteLine("Pesanan Anda:");
+        foreach (Order pesanan in pesanan)
         {
-            if (order.Sender.Username == currentUser.Username)
+            if (pesanan.Pengirim.Username == penggunaSaatIni.Username)
             {
-                Console.WriteLine(order.ToString());
+                Console.WriteLine(pesanan.ToString());
             }
         }
     }
 
-    static void CourierMenu()
+    static void MenuKurir()
     {
         while (true)
         {
-            Console.WriteLine("1. My orders");
-            Console.WriteLine("2. Logout");
-            Console.Write("Choose option: ");
-            int option = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("1. Pesanan saya");
+            Console.WriteLine("2. Keluar");
+            Console.Write("Pilih opsi: ");
+            int opsi = Convert.ToInt32(Console.ReadLine());
 
-            switch (option)
+            switch (opsi)
             {
                 case 1:
-                    ViewCourierOrders();
+                    LihatPesananKurir();
                     break;
                 case 2:
-                    currentUser = null;
+                    penggunaSaatIni = null;
                     return;
                 default:
-                    Console.WriteLine("Invalid option.");
+                    Console.WriteLine("Opsi tidak valid.");
                     break;
             }
         }
     }
 
-    static void ViewCourierOrders()
+    static void LihatPesananKurir()
     {
-        Console.WriteLine("Your orders:");
-        foreach (Order order in orders)
+        Console.WriteLine("Pesanan Anda:");
+        foreach (Order pesanan in pesanan)
         {
-            if (order.Status != "Delivered")
+            if (pesanan.Status != "Diterima")
             {
-                Console.WriteLine(order.ToString());
-                Console.Write("Update order status (Picked up/Delivering/Delivered): ");
+                Console.WriteLine(pesanan.ToString());
+                Console.Write("Perbarui status pesanan (Diambil/Dikirim/Diterima): ");
                 string status = Console.ReadLine();
-                order.Status = status;
-                Console.WriteLine("Order status updated successfully!");
+                pesanan.Status = status;
+                Console.WriteLine("Status pesanan berhasil diperbarui!");
                 return;
             }
         }
-        Console.WriteLine("No pending orders.");
+        Console.WriteLine("Tidak ada pesanan yang sedang berjalan.");
     }
 }
 
@@ -248,22 +271,22 @@ class User
 
 class Order
 {
-    public User Sender { get; set; }
-    public string SenderName { get; set; }
-    public string SenderAddress { get; set; }
-    public string SenderPhone { get; set; }
-    public string RecipientName { get; set; }
-    public string RecipientAddress { get; set; }
-    public string RecipientPhone { get; set; }
-    public string PackageType { get; set; }
-    public double PackageWeight { get; set; }
-    public double Distance { get; set; }
-    public double Price { get; set; }
-    public bool IsPaid { get; set; }
+    public User Pengirim { get; set; }
+    public string NamaPengirim { get; set; }
+    public string AlamatPengirim { get; set; }
+    public string TeleponPengirim { get; set; }
+    public string NamaPenerima { get; set; }
+    public string AlamatPenerima { get; set; }
+    public string TeleponPenerima { get; set; }
+    public string TipePaket { get; set; }
+    public double BeratPaket { get; set; }
+    public double Jarak { get; set; }
+    public double Harga { get; set; }
+    public bool SudahDibayar { get; set; }
     public string Status { get; set; }
 
     public override string ToString()
     {
-        return $"Sender: {SenderName}, Recipient: {RecipientName}, Distance: {Distance} km, Price: {Price}, Status: {Status}";
+        return $"Pengirim: {NamaPengirim}, Penerima: {NamaPenerima}, Jarak: {Jarak} km, Harga: {Harga}, Status: {Status}";
     }
 }
